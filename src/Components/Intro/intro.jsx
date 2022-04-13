@@ -88,7 +88,18 @@ function Intro() {
             txt2="Award"
           />
         </div>
-        <div></div>
+        {/*blur divs*/}
+        <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
+        <div
+          className="blur"
+          style={{
+            background: "#C1F5FF",
+            top: "17rem",
+            width: "21rem",
+            height: "11rem",
+            left: "-9rem",
+          }}
+        ></div>
       </div>
     </div>
   );

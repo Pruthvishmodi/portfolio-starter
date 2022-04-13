@@ -6,7 +6,7 @@ function FloatingDiv({ image, txt1, txt2 }) {
     <div className="floatingdiv">
       <img
         src="https://res.cloudinary.com/pruthvish/image/upload/q_75/v1649765901/new%20portfolio/crown_kketps.webp"
-        alt=""
+        alt="crown"
       />
       <span>
         {txt1}
