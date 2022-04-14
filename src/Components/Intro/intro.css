@@ -25,14 +25,34 @@
     font-size: 3rem;
 }
 .i-name>:nth-child(3){
+    color: ;
+    font-weight: 100;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+.i-name>:nth-child(4){
+    color: gray;
+    font-weight: 100;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+    
+.i-name>:nth-child(5){
+    color: gray;
+    font-weight: 100;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+.i-name>:nth-child(6){
     color: gray;
     font-weight: 100;
     font-size: 1.1rem;
     margin-top: 10px;
 }
 .i-button {
-    width: 6rem;
-    height: 2rem;
+    width: 8rem;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 .i-icons {
     margin-top: 3rem;

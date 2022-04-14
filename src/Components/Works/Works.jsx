@@ -21,7 +21,7 @@ export const Work = () => {
 
         <button className="button s-button">Hire Me</button>
         <div
-          className="blur s-blur1"
+          className="blur p-blur1"
           style={{ background: "var(--blueCard)" }}
         ></div>
       </div>
@@ -29,19 +29,22 @@ export const Work = () => {
       <div className="w-right">
         <div className="w-maincircle">
           <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+            <img
+              src="https://res.cloudinary.com/pruthvish/image/upload/c_scale,h_121,q_75,w_116/v1649935685/new%20portfolio/WhatsApp_Image_2022-04-14_at_4.56.05_PM-removebg-preview_egxzdc.webp"
+              alt="scis"
+            />
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+            <img src={Fiverr} alt="fiverr 2" />
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            <img src={Amazon} alt="amazon 3" />
           </div>{" "}
           <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            <img src={Shopify} alt="shopify 4" />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img src={Facebook} alt="facebook 5" />
           </div>
         </div>
       </div>

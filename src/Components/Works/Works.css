@@ -1,10 +1,10 @@
 .Works {
     padding: 0 3rem;
     display: flex;
-    height: 90vh;
-    margin-top: 60rem;
-     margin-bottom: 8rem;
-    margin-bottom: 13rem;
+    align-items: center;
+    height: 100vh;
+    margin-top: 6rem;
+    
 }
 .s-button {
     width: 8rem;
@@ -15,7 +15,12 @@
 .Works > .awesome span:nth-child(3) {
     width: 30rem;
 }
-{/*right side path */}
+.p-blur1 {
+    top: 2rem;
+    left: -15rem;
+}
+
+/* {right side path} */
 
 .w-right {
     position: relative;
@@ -34,22 +39,55 @@
     position: absolute;
 }
 .w-maincircle > :nth-child(1) {
-    top: 5.5rem;
-    left: -3rem;
+    top: -2rem;
+    left: 4.5rem;
 }
 .w-maincircle > :nth-child(2) {
-    top: -3rem;
-    left: 6rem;
+    top: 5.5rem;
+    left: -3rem;
 }
 .w-maincircle > :nth-child(3) {
     top: 6rem;
     left: 5rem;
 }
 .w-maincircle > :nth-child(4) {
-    top: 15rem;
-    left: 5rem;
+    top: 5.5rem;
+    left: 13.2rem;
 }
 .w-maincircle > :nth-child(5) {
-    top: 5.5rem;
-    left: 13rem;
+    top: 13.5rem;
+    left: 5rem;
+}
+.w-secCircle {
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border: 5px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    box-shadow: var(--smboxShadow);
+    background: white;
+}
+.w-secCircle > img {
+    transform: scale(0.6);
+}
+.w-backCircle {
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+.bluCircle {
+    background: #194988;
+    left: 53rem;
+    top: 120rem;
+}
+.yellowCircle {
+    background: #f5c32c;
+    left: 53rem;
+    top: 130rem;
 }

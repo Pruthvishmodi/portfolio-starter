@@ -19,6 +19,10 @@ export const Experience = () => {
         <span>Companies</span>
         <span>Work</span>
       </div>
+      <div
+        className="blur y-blur2"
+        style={{ background: "var(--blueCard)" }}
+      ></div>
     </div>
   );
 };

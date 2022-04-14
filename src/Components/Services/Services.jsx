@@ -14,11 +14,10 @@ const Services = () => {
         <span>My Awesome</span>
         <span>Services</span>
         <span>
-          I am a Front-End developer and love working with new technology.{" "}
-          <br /> I do development to deliver a great end-to-end solution focused
-          on user experience.
-          <br /> My main focus these days is SEO, performance, type system, and
-          code architecture.
+          I am a Front-End developer and love working with new technology. I do
+          development to deliver a great end-to-end solution focused on user
+          experience. My main focus these days is SEO, performance, type system,
+          and code architecture.
         </span>
         <a className="download-link" href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -30,7 +29,7 @@ const Services = () => {
       </div>
       {/*right side*/}
       <div className="cards">
-        <div style={{ left: "30rem", top: "55rem" }}>
+        <div style={{ left: "30rem", top: "64rem" }}>
           <Card
             img="https://res.cloudinary.com/pruthvish/image/upload/c_scale,q_75,w_130/v1649842364/new%20portfolio/frontend_mvoaiu.webp"
             heading={"Frontend Development"}
@@ -40,7 +39,7 @@ const Services = () => {
           />
         </div>
         {/*secound card*/}
-        <div style={{ left: "45rem", top: "50rem" }}>
+        <div style={{ left: "45rem", top: "59rem" }}>
           <Card
             img="https://res.cloudinary.com/pruthvish/image/upload/c_scale,h_130,q_75,w_130/v1649842366/new%20portfolio/mobail_app_hmseyv.webp"
             heading={"Mobile Application"}
@@ -50,7 +49,7 @@ const Services = () => {
           />
         </div>
         {/*3rd card*/}
-        <div style={{ left: "60rem", top: "45rem" }}>
+        <div style={{ left: "60rem", top: "54rem" }}>
           <Card
             img="https://res.cloudinary.com/pruthvish/image/upload/c_scale,q_75,w_130/v1649842365/new%20portfolio/Corporate_cwgvh4.webp"
             heading={"Corporate Projects"}
@@ -62,10 +61,6 @@ const Services = () => {
         <div
           className="blur s-blur2"
           style={{ background: "var(--purple)" }}
-        ></div>
-        <div
-          className="blur s-blur1"
-          style={{ background: "var(--blueCard)" }}
         ></div>
       </div>
     </div>

@@ -1,7 +1,7 @@
-.services {
+.Services {
     padding: 0rem 3rem;
     display: flex;
-    height: 90vh;
+    height: 140vh;
     margin-bottom: 8rem;
     margin-top: 9rem;
     margin-bottom: 13rem;
@@ -25,6 +25,7 @@
     color: var(--gray);
     font-size: 1.1rem;
     margin-top: 1rem;
+    width: 30rem;
 }
 .download-link {
     height: auto;
@@ -54,9 +55,9 @@
 /* blur2 */
 .s-blur2 {
     left: 50rem;
-    top: 55rem;
+    top: 62rem;
 }
 .s-blur1 {
-    top: 58rem;
-    left: -5rem;
+    top: 3rem;
+    left: -10rem;
 }
