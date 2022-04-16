@@ -29,7 +29,7 @@ const Services = () => {
       </div>
       {/*right side*/}
       <div className="cards">
-        <div style={{ left: "30rem", top: "64rem" }}>
+        <div style={{ left: "30rem", top: "66rem" }}>
           <Card
             img="https://res.cloudinary.com/pruthvish/image/upload/c_scale,q_75,w_130/v1649842364/new%20portfolio/frontend_mvoaiu.webp"
             heading={"Frontend Development"}
@@ -39,7 +39,7 @@ const Services = () => {
           />
         </div>
         {/*secound card*/}
-        <div style={{ left: "45rem", top: "59rem" }}>
+        <div style={{ left: "45rem", top: "61rem" }}>
           <Card
             img="https://res.cloudinary.com/pruthvish/image/upload/c_scale,h_130,q_75,w_130/v1649842366/new%20portfolio/mobail_app_hmseyv.webp"
             heading={"Mobile Application"}
@@ -49,7 +49,7 @@ const Services = () => {
           />
         </div>
         {/*3rd card*/}
-        <div style={{ left: "60rem", top: "54rem" }}>
+        <div style={{ left: "60rem", top: "56rem" }}>
           <Card
             img="https://res.cloudinary.com/pruthvish/image/upload/c_scale,q_75,w_130/v1649842365/new%20portfolio/Corporate_cwgvh4.webp"
             heading={"Corporate Projects"}

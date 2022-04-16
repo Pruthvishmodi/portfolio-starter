@@ -25,7 +25,7 @@
     font-size: 3rem;
 }
 .i-name>:nth-child(3){
-    color: ;
+    color: #3d8b9c ;
     font-weight: 100;
     font-size: 1.3rem;
     margin-top: 10px;
@@ -38,12 +38,6 @@
 }
     
 .i-name>:nth-child(5){
-    color: gray;
-    font-weight: 100;
-    font-size: 1.1rem;
-    margin-top: 10px;
-}
-.i-name>:nth-child(6){
     color: gray;
     font-weight: 100;
     font-size: 1.1rem;
@@ -104,4 +98,48 @@
     top: -18%;
     left: 56%;
     filter: blur(72px);
+}
+.link:before {
+    content: '';
+    width: 0;
+    height: 1px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    background: #444;
+    transition: ease all 0.3s;
+}
+.link:after {
+    content: '';
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0.5;
+    transition: ease all 0.3s;
+    background: #F5C32C;
+    background: linear-gradient( to right, #43e97b, #F5C32C );
+}
+
+
+.link {
+    color: #444 !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none !important;
+    transition: ease all 0.3s;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.link:hover::after{
+    width: 10%;
+}
+
+.link:hover::before{
+    width: 90%;
 }

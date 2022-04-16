@@ -1,10 +1,10 @@
 .Works {
+    position: relative;
     padding: 0 3rem;
     display: flex;
     align-items: center;
     height: 100vh;
-    margin-top: 6rem;
-    
+    margin-top: 20rem;
 }
 .s-button {
     width: 8rem;
@@ -75,19 +75,20 @@
     transform: scale(0.6);
 }
 .w-backCircle {
-    position: absolute;
     height: 13rem;
     width: 13rem;
     border-radius: 100%;
     z-index: -1;
 }
 .bluCircle {
+    position: absolute;
     background: #194988;
-    left: 53rem;
-    top: 120rem;
+    left: 50rem;
+    top: 8rem;
 }
 .yellowCircle {
+    position: absolute;
     background: #f5c32c;
-    left: 53rem;
-    top: 130rem;
+    left: 50rem;
+    top: 19rem;
 }

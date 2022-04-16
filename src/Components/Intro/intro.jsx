@@ -26,11 +26,10 @@ function Intro() {
           </span>
           <span>
             My passion is to design digital user experiences through bold
-            interface and meaningful interactions.
-          </span>
-          <span>
-            Frontend Developer with high level of experience in web development,
-            producting the Quality work.Check out my PORTFOLIO
+            interface and meaningful interactions. Check out my{" "}
+            <a href="#" className="link">
+              PORTFOLIO
+            </a>
           </span>
         </div>
 
