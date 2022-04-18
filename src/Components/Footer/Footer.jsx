@@ -15,7 +15,11 @@ function Footer() {
         style={{ width: "100%" }}
       />
       <div className="f-content">
-        <span>iampruthvishmodi@gmail.com</span>
+        <span>
+          <a href="mailto:iampruthvish@gmail.com">
+            <span>iampruthvishmodi@gmail.com</span>
+          </a>
+        </span>
         <div className="f-icons">
           <a
             target="_blank"

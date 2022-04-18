@@ -1,11 +1,17 @@
 import React from "react";
 import "./Experience.css";
+import { ThemeContext } from "../../Context";
+import { useContext } from "react";
 
 export const Experience = () => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="Experience">
       <div className="achievement">
-        <div className="circle">3+</div>
+        <div className="circle" style={{ color: darkMode ? "white" : "" }}>
+          3+
+        </div>
         <span>Years</span>
         <span>Experience</span>
       </div>

@@ -5,13 +5,19 @@ import Fiverr from "../../img/fiverr.png";
 import Amazon from "../../img/amazon.png";
 import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
+import { ThemeContext } from "../../Context";
+import { useContext } from "react";
 
 export const Work = () => {
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="Works">
       {/*left side*/}
       <div className="awesome">
-        <span>Work For All These</span>
+        <span style={{ color: darkMode ? "white" : "" }}>
+          Work For All These
+        </span>
         <span>Brands & Clients</span>
         <span>
           Work with local, as well as, international clients has become an
