@@ -15,6 +15,7 @@ function Footer() {
         style={{ width: "100%" }}
       />
       <div className="f-content">
+        <span className="great"> OK, LET'S CREAT SOMETHING GREAT</span>
         <span>
           <a href="mailto:iampruthvish@gmail.com">
             <span>iampruthvishmodi@gmail.com</span>
@@ -26,29 +27,32 @@ function Footer() {
             href="https://instagram.com/modi.pruthvish26@gmail.com"
             rel="noreferrer"
           >
-            <Insta color="white" size="3rem" />
+            <Insta color="white" size="1.5rem" />
           </a>
           <a
             target="_blank"
             href="https://facebook.com/Pruthvishmodi/Pruthvishmodi"
             rel="noreferrer"
           >
-            <Facebook color="white" size="3rem" />
+            <Facebook color="white" size="1.5rem" />
           </a>
           <a
             target="_blank"
             href="https://github.com/Pruthvishmodi/Pruthvishmodi"
             rel="noreferrer"
           >
-            <Github color="white" size="3rem" />
+            <Github color="white" size="1.5rem" />
           </a>
           <a
             target="_blank"
             href="https://linkedin.com/Pruthvishmodi/Pruthvishmodi"
             rel="noreferrer"
           >
-            <Linkedin color="white" size="3rem" />
+            <Linkedin color="white" size="1.5rem" />
           </a>
+          <span className="hr">
+            <hr></hr>
+          </span>
         </div>
       </div>
     </div>

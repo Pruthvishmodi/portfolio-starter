@@ -9,8 +9,13 @@
     display: flex;
     gap: 2rem;
 }
+.n-left > .n-name>*.sh {
+    color: orange;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 .n-name {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 .n-right {
@@ -37,3 +42,12 @@
     flex: 2;
 
 }
+@media screen and (max-width: 480px) {
+    .n-list{
+        display: none;
+    }
+    .n-button {
+        display: none;
+    }
+}
+

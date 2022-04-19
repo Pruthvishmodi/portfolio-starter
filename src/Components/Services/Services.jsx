@@ -12,7 +12,7 @@ const Services = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className="Services">
+    <div className="Services" id="Services">
       {/*left side*/}
       <div className="awesome">
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
@@ -33,17 +33,17 @@ const Services = () => {
       </div>
       {/*right side*/}
       <div className="cards">
-        <div style={{ left: "30rem", top: "66rem" }}>
+        <div style={{ left: "30rem", top: "62.5rem" }}>
           <Card
             img="https://res.cloudinary.com/pruthvish/image/upload/c_scale,q_75,w_130/v1649842364/new%20portfolio/frontend_mvoaiu.webp"
             heading={"Frontend Development"}
             detail={
-              "I hold good proficiency in all the latest front-end technologies. I am also an expert in building any specific technology that you have in mind. I have great knowledge of React, Next , HTML5 and CSS3."
+              "I hold good proficiency in all the latest front-end technologies. I am also an expert in building any specific technology that you have in mind. I have great knowledge of  HTML5, CSS3, Tailwind, React, Next, and JavaScript."
             }
           />
         </div>
         {/*secound card*/}
-        <div style={{ left: "45rem", top: "61rem" }}>
+        <div style={{ left: "45rem", top: "56.5rem" }}>
           <Card
             img="https://res.cloudinary.com/pruthvish/image/upload/c_scale,h_130,q_75,w_130/v1649842366/new%20portfolio/mobail_app_hmseyv.webp"
             heading={"Mobile Application"}
@@ -53,7 +53,7 @@ const Services = () => {
           />
         </div>
         {/*3rd card*/}
-        <div style={{ left: "60rem", top: "56rem" }}>
+        <div style={{ left: "60rem", top: "51.5rem" }}>
           <Card
             img="https://res.cloudinary.com/pruthvish/image/upload/c_scale,q_75,w_130/v1649842365/new%20portfolio/Corporate_cwgvh4.webp"
             heading={"Corporate Projects"}

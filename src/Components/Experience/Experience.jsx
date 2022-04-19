@@ -7,21 +7,25 @@ export const Experience = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className="Experience">
+    <div className="Experience" id="Experience">
       <div className="achievement">
-        <div className="circle" style={{ color: darkMode ? "white" : "" }}>
+        <div className="circle" style={{ color: darkMode ? "black" : "" }}>
           3+
         </div>
         <span>Years</span>
         <span>Experience</span>
       </div>
       <div className="achievement">
-        <div className="circle">10+</div>
+        <div className="circle" style={{ color: darkMode ? "black" : "" }}>
+          10+
+        </div>
         <span>Completed</span>
         <span>Projects</span>
       </div>
       <div className="achievement">
-        <div className="circle">5+</div>
+        <div className="circle" style={{ color: darkMode ? "black" : "" }}>
+          5+
+        </div>
         <span>Companies</span>
         <span>Work</span>
       </div>

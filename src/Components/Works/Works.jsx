@@ -7,8 +7,11 @@ import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
 import { ThemeContext } from "../../Context";
 import { useContext } from "react";
+import { motion } from "framer-motion";
+
 
 export const Work = () => {
+  const transition = { duration: 2, type: "spring" };
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return (
@@ -33,26 +36,33 @@ export const Work = () => {
       </div>
       {/*right side path */}
       <div className="w-right">
-        <div className="w-maincircle">
-          <div className="w-secCircle">
-            <img
-              src="https://res.cloudinary.com/pruthvish/image/upload/c_scale,h_121,q_75,w_116/v1649935685/new%20portfolio/WhatsApp_Image_2022-04-14_at_4.56.05_PM-removebg-preview_egxzdc.webp"
-              alt="scis"
-            />
+        <motion.div
+          initial={{ rotate: 45 }}
+          whileInView={{ rotate: 0 }}
+          viewport={{ margin: "-40px" }}
+          transition={{ duration: 3.5, type: "spring" }}
+        >
+          <div className="w-maincircle">
+            <div className="w-secCircle">
+              <img
+                src="https://res.cloudinary.com/pruthvish/image/upload/c_scale,h_121,q_75,w_116/v1649935685/new%20portfolio/WhatsApp_Image_2022-04-14_at_4.56.05_PM-removebg-preview_egxzdc.webp"
+                alt="scis"
+              />
+            </div>
+            <div className="w-secCircle">
+              <img src={Fiverr} alt="fiverr 2" />
+            </div>
+            <div className="w-secCircle">
+              <img src={Amazon} alt="amazon 3" />
+            </div>{" "}
+            <div className="w-secCircle">
+              <img src={Shopify} alt="shopify 4" />
+            </div>
+            <div className="w-secCircle">
+              <img src={Facebook} alt="facebook 5" />
+            </div>
           </div>
-          <div className="w-secCircle">
-            <img src={Fiverr} alt="fiverr 2" />
-          </div>
-          <div className="w-secCircle">
-            <img src={Amazon} alt="amazon 3" />
-          </div>{" "}
-          <div className="w-secCircle">
-            <img src={Shopify} alt="shopify 4" />
-          </div>
-          <div className="w-secCircle">
-            <img src={Facebook} alt="facebook 5" />
-          </div>
-        </div>
+        </motion.div>
       </div>
       {/*background parth */}
       <div className="w-backCircle bluCircle"></div>

@@ -12,8 +12,11 @@ import glassesimoji from "../../img/glassesimoji.png";
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
 import { ThemeContext } from "../../Context";
 import { useContext } from "react";
+import { motion } from "framer-motion";
 
 function Intro() {
+  const transition = { duration: 2, type: "spring" };
+
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return (
@@ -101,23 +104,39 @@ function Intro() {
           src="https://res.cloudinary.com/pruthvish/image/upload/q_80/v1649765902/new%20portfolio/boy_vm6jt2.webp"
           alt="boy"
         />
-        <img
+        <motion.img
+          initial={{ left: "-36%" }}
+          whileInView={{ left: "-24%" }}
+          transition={transition}
           src="https://res.cloudinary.com/pruthvish/image/upload/q_75/v1649765903/new%20portfolio/glassesimoji_ii6lhb.webp"
           alt="glassemojis"
         />
-        <div style={{ top: "-4%", left: "68% " }}>
+        <motion.div
+          initial={{ top: "-4%", left: "80%" }}
+          whileInView={{ left: "59%" }}
+          transition={transition}
+          style={{ top: "-4%", left: "80% " }}
+          className="floating-div"
+        >
           <FloatingDiv
             img="https://res.cloudinary.com/pruthvish/image/upload/q_75/v1649765901/new%20portfolio/crown_kketps.webp"
             txt1="Web Developer"
           />
-        </div>
-        <div style={{ top: "18rem", left: "0rem " }}>
+        </motion.div>
+
+        <motion.div
+          initial={{ top: "18rem", left: "9rem" }}
+          whileInView={{ left: "0rem" }}
+          transition={transition}
+          style={{ top: "18rem", left: "0rem " }}
+          className="floating-div"
+        >
           <FloatingDiv
             img="https://res.cloudinary.com/pruthvish/image/upload/q_75/v1649765904/new%20portfolio/thumbup_icz4gl.webp"
             txt1="Best Design"
             txt2="Award"
           />
-        </div>
+        </motion.div>
         {/*blur divs*/}
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
         <div
