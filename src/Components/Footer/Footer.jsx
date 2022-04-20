@@ -4,6 +4,7 @@ import Insta from "@iconscout/react-unicons/icons/uil-instagram";
 import Facebook from "@iconscout/react-unicons/icons/uil-facebook";
 import Github from "@iconscout/react-unicons/icons/uil-github";
 import Linkedin from "@iconscout/react-unicons/icons/uil-linkedin";
+
 import Wave from "../../img/wave.png";
 
 function Footer() {
@@ -17,9 +18,9 @@ function Footer() {
       <div className="f-content">
         <span className="great"> OK, LET'S CREAT SOMETHING GREAT</span>
         <span>
-          <a href="mailto:iampruthvish@gmail.com">
+          {/* <a href="mailto:iampruthvish@gmail.com">
             <span>iampruthvishmodi@gmail.com</span>
-          </a>
+  </a>*/}
         </span>
         <div className="f-icons">
           <a
@@ -27,28 +28,28 @@ function Footer() {
             href="https://instagram.com/modi.pruthvish26@gmail.com"
             rel="noreferrer"
           >
-            <Insta color="white" size="1.5rem" />
+            <Insta color="white" size="1.8rem" />
           </a>
           <a
             target="_blank"
             href="https://facebook.com/Pruthvishmodi/Pruthvishmodi"
             rel="noreferrer"
           >
-            <Facebook color="white" size="1.5rem" />
+            <Facebook color="white" size="1.8rem" />
           </a>
           <a
             target="_blank"
             href="https://github.com/Pruthvishmodi/Pruthvishmodi"
             rel="noreferrer"
           >
-            <Github color="white" size="1.5rem" />
+            <Github color="white" size="1.8rem" />
           </a>
           <a
             target="_blank"
             href="https://linkedin.com/Pruthvishmodi/Pruthvishmodi"
             rel="noreferrer"
           >
-            <Linkedin color="white" size="1.5rem" />
+            <Linkedin color="white" size="1.8rem" />
           </a>
           <span className="hr">
             <hr></hr>
