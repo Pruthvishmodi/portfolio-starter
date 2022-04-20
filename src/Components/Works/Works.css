@@ -98,6 +98,7 @@
         height: 55rem;
         padding: 0;
         gap: 5rem;
+        margin-top: 9rem;
     }
     .w-right{
         display: flex;
@@ -105,11 +106,30 @@
         justify-self: start;
         transform: scale(0.7);
     }
-    .w-backCircle{
-        position: static;
-
+    .w-maincircle {
+        position: relative;
+        width: 18rem;
+        height: 18rem;
+        left: 0rem;
     }
     .w-backCircle{
-        left: 8rem!important
+        position: absolute;
+        left:7rem;
+        height: 50vw;
+        width: 50vw;
+        top: 37rem;
+    }
+    .w-backCircle.yellowCircle {
+        left: 8rem;
+        width: 50vw;
+        height: 50vw;
+        top: 45rem;
+    }
+    .Works > .awesome span:nth-child(3) {
+        width: 100%;
+    }
+    .awesome{
+        position: relative;
+        width: 100%;
     }
 }

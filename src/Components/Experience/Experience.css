@@ -46,3 +46,20 @@ box-shadow: var(--boxShadow);
     top: 11rem;
     left: 9rem;
 }
+@media screen and (max-width: 480px) {
+    .Experience {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        height: 110vh;
+        top: 16rem;
+        left: 0rem;
+    }
+    .y-blur2 {
+        display: none;
+        top: 11rem;
+        left: 9rem;
+    }
+}

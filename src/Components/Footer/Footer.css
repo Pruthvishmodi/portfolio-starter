@@ -35,5 +35,6 @@ font-weight: bold;
 @media screen and (max-width: 480px) {
     .f-content{
         transform: scale(.5);
+        width: 100%;
     }
 }
