@@ -102,7 +102,7 @@ function Intro() {
         />
         <img
           className="pruthvish"
-          src="https://res.cloudinary.com/pruthvish/image/upload/c_scale,e_auto_brightness,h_300,q_80,w_350/v1649925647/new%20portfolio/pruth2-removebg-preview_bwwiba.webp"
+          src="https://res.cloudinary.com/pruthvish/image/upload/c_scale,e_auto_brightness,h_273,q_80,w_175/v1649927762/new%20portfolio/IMG_20180505_122155-removebg-preview_anyx9u.webp"
           alt="pruthvish"
         />
         <motion.img
@@ -117,7 +117,7 @@ function Intro() {
           whileInView={{ left: "59%" }}
           transition={transition}
           style={{ top: "-4%", left: "80% " }}
-          className="floating-div"
+          className="floating-div1"
         >
           <FloatingDiv
             img="https://res.cloudinary.com/pruthvish/image/upload/q_75/v1649765901/new%20portfolio/crown_kketps.webp"
@@ -126,11 +126,11 @@ function Intro() {
         </motion.div>
 
         <motion.div
-          initial={{ top: "18rem", left: "9rem" }}
-          whileInView={{ left: "0rem" }}
+          initial={{ top: "18rem", left: "15rem" }}
+          whileInView={{ left: "2rem" }}
           transition={transition}
-          style={{ top: "18rem", left: "0rem " }}
-          className="floating-div"
+          style={{ top: "18rem", left: "15rem " }}
+          className="floating-div2"
         >
           <FloatingDiv
             img="https://res.cloudinary.com/pruthvish/image/upload/q_75/v1649765904/new%20portfolio/thumbup_icz4gl.webp"

@@ -37,6 +37,7 @@ function Navbar() {
             </Link>
           </ul>
         </div>
+
         <button className="button n-button">Contact</button>
       </div>
     </div>
