@@ -101,8 +101,9 @@ function Intro() {
           alt="vector2"
         />
         <img
-          src="https://res.cloudinary.com/pruthvish/image/upload/q_80/v1649765902/new%20portfolio/boy_vm6jt2.webp"
-          alt="boy"
+          className="pruthvish"
+          src="https://res.cloudinary.com/pruthvish/image/upload/c_scale,e_auto_brightness,h_300,q_80,w_350/v1649925647/new%20portfolio/pruth2-removebg-preview_bwwiba.webp"
+          alt="pruthvish"
         />
         <motion.img
           initial={{ left: "-36%" }}
